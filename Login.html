@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="logincss.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Log in</a>
+        <ul>
+            <li><a href="#">Hakkında</a></li>
+            <li><a href="özgeçmiş.html">Özgeçmiş</a></li>
+            <li><a href="Şehrim.html">Şehrim</a></li>
+            <li><a href="#">İletişim</a></li>
+    </header>
+    <section class="banner"></section>
+<script type="text/javascript">
+window.addEventListener("scroll",function(){
+var header=document.querySelector("header");
+header.classList.toggle("sticky",window.scrollY>0);
+})
+</script>
+
+
+
+<div class="formkapsam">
+    
+    <form>
+        <h2>Giriş Yap</h2>
+<div><input required type="text" name=""><label>Kullanıcı Adı</label></div>
+<div><input required type="password" name=""><label>Şifre</label></div>
+<button>Gönder</button>
+    </form>
+    <img src="gandalf.png" id="bg" alt="">
+
+</div>
+
+
+</body>
+</html>

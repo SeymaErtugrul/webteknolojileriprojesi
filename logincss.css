@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{padding:0;margin:0;list-style:none; border:0;}
+body{
+    font-size: 25px;font-family: 'Rancho', cursive;
+    box-sizing: border-box; 
+
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    transition:0.6s;
+    padding:40px 100px;
+    z-index:1000000;
+  }
+  
+  header.sticky{
+    padding:5px 100px;
+    background:#000;
+  }
+  
+  header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li{
+    position: relative;
+    list-style: none;
+  }
+  
+  header ul li a {
+    position: relative;
+    margin:0 15px;
+    text-decoration: none;
+    color:#000;
+    letter-spacing: 2px;
+    font-weight:500px;
+    transition:0.6s;
+  }
+  .banner{
+    position: relative;
+    width: 100%;;
+    background:black;
+    background-size: cover;
+  }
+  header.sticky .logo,
+  header.sticky ul li a{
+    color:#fff;
+  }
+  
+  header .logo{
+    position: relative;
+    font-weight: 700;
+    color:#000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:  2em;
+    letter-spacing: 2px;
+    transition: 0.6s;
+  }
+  
+
+
+.img.bg{
+
+background-position: center center;
+background-size: cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+}
+
+.formkapsam{
+    width: 22%;
+    height:50%;
+    background:white;
+    position: absolute;
+    transform:translate(180%,30%);
+
+}
+.formkapsam h2{
+    width: 100%;
+    text-align:center center;
+    position: relative;
+    top:20px;
+    margin-bottom: 30px;
+    color:black;
+}
+
+.formkapsam input{
+    width:80%;
+    left:5%;
+    padding:10px;
+    border-radius: 20px;
+    border-bottom: 1px white;
+    margin-bottom: 20px;
+    color:white;
+    background:black;
+   
+}
+
+.formkapsam button{
+    width:40%;
+    left:20%;
+    position: relative;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    color:white;
+    background:black;
+}
+.formkapsam label {
+position: relative;
+display:block;
+top:-50px;
+left:29px;
+color:white;
+pointer-events:none;
+cursor:pointer;
+}
+
+.formkapsam input:focus~ label,
+.formkapsam input:valid~ label{
+    color:grey;
+    top:-67px;
+    font-size: 15px;
+    transition:0.8s;
+
+}
