@@ -3,15 +3,17 @@
 <head>
 <title>Login</title>
 <link rel="stylesheet" type="text/css" href="logincss.css">
+<form class="form" action="formgönder.php" method="post"></form>
 </head>
 <body>
     <header>
         <a href="#" class="logo">Log in</a>
         <ul>
-            <li><a href="#">Hakkında</a></li>
+            <li><a href="Hakkında.html">Hakkında</a></li>
             <li><a href="özgeçmiş.html">Özgeçmiş</a></li>
             <li><a href="Şehrim.html">Şehrim</a></li>
-            <li><a href="#">İletişim</a></li>
+            <li><a href="özgeçmiş.html">Özgeçmiş</a></li>
+            <li><a href="Mirasımız.html">Mirasımız</a></li>
     </header>
     <section class="banner"></section>
 <script type="text/javascript">
@@ -24,13 +26,14 @@ header.classList.toggle("sticky",window.scrollY>0);
 
 
 <div class="formkapsam">
-    
+    <form class="form" action="formgönder.php" method="post">
     <form>
         <h2>Giriş Yap</h2>
-<div><input required type="text" name=""><label>Kullanıcı Adı</label></div>
-<div><input required type="password" name=""><label>Şifre</label></div>
+<div><input required type="email" class="ad" name="email"><label>Mail Adresi</label></div>
+<div><input required type="password" class="şifre" name="şifre"><label>Şifre</label></div>
 <button>Gönder</button>
     </form>
+    <form class="form" action="formgönder.php" method="post"></form>
     <img src="gandalf.png" id="bg" alt="">
 
 </div>

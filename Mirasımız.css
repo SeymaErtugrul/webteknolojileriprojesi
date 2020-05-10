@@ -1,0 +1,34 @@
+@charset "utf-8";
+*{padding:0;margin:0;list-style:none; border:0;}
+
+    
+    
+        .bilgi{
+            padding:20px ;
+            background: #fff;
+            margin:10px 10px 0 0;
+        }
+         
+        .bilgi-resim{
+            float:left;
+            width:5%;
+            margin:0 10px 10px 0;
+        }
+         
+        .bilgi-baslik{
+            font-family: cursive;
+            font-size: 30px;
+            color:rebeccapurple;
+        }
+         
+        .bilgi-ozet{
+            margin-top:10px;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-family: cursive;
+            line-height: 1.6em;
+            color:darkcyan;
+        }
+  
+         
+       

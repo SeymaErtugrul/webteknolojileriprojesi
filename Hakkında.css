@@ -1,106 +1,10 @@
 @charset "utf-8";
 *{padding:0;margin:0;list-style:none; border:0;}
-body{
-    margin:0;
-    padding:0;
-    background: #fff repeat-x #e0e0df;
-    }
-    
-      
-      body{
-        background:#fff;
-        min-width: height 200vh;
-      }
-      header{
-        position: fixed;
-        top:0;
-        left:0;
-        width:90%;
-        display:flex;
-        align-items:center;
-        justify-content: space-between;
-        transition:0.6s;
-        padding:40px 100px; 
-        z-index:1000000;
-      }
-      
-      header.sticky{
-        padding:5px 100px;
-        background:#fff;
-      }
-      
-      header ul{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      header ul li{
-        position: relative;
-        list-style: none;
-      }
-      
-      header ul li a {
-        position: relative;
-        margin:0 15px;
-        text-decoration: none;
-        color:#fff;
-        letter-spacing: 2px;
-        font-weight:500px;
-        transition:0.6s;
-      }
-      .banner{
-        position: relative;
-        width: 100%;
-        background:black;
-        background-size: cover;
-      }
-      header.sticky .logo,
-      header.sticky ul li a{
-        color:#000;
-      }
-      
-      header .logo{
-        position: relative;
-        font-weight: 700;
-        color:#fff;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size:  2em;
-        letter-spacing: 2px;
-        transition: 0.6s;
-      }
-      
 
-      
-        .slider { 
-            overflow: hidden;
-           
-          }
-          .slider figure img { width: 20%; float: left; }
-          .slider figure { 
-            position: relative;
-            width: 500%;
-            left: 0;
-            text-align: left;
-            font-size: 0;
-            animation: 30s slidy infinite; 
-          }
+        
+          .slider figure img { width:100%;
+            float: left; }
           
-      
-          @keyframes slidy {
-            0% { left: 0%; }
-            20% { left: 0%; }
-            25% { left: -100%; }
-            45% { left: -100%; }
-            50% { left: -200%; }
-            70% { left: -200%; }
-            75% { left: -300%; }
-            95% { left: -300%; }
-            100% { left: -400%; }
-            }
-            
         .slide{
             padding:10px ;
             background: #fff;
@@ -109,33 +13,28 @@ body{
          
         .slide-resim{
             float:left;
-            width:5%;
+            padding:30px;
+            width:20%;
             margin:0 10px 10px 0;
         }
          
         .slide-baslik{
-            font-family: sans-serif;
+            font-family: cursive;
             font-size: 1.6em;
-            color:#000;
+            color:rebeccapurple;
+            padding:20px;
+       
         }
          
         .slide-ozet{
             margin-top:10px;
-            font-family: sans-serif;
-            font-size: 1em;
+            font-family: cursive;
+            font-size: 17px;
+            color:darkcyan;
             line-height: 1.6em;
-            color:#000;
+            
         }
-         
-        .urun-ozet a{
-            color:red;
-        }
-         
-        .orta-sag{
-            float:left;
-            width: 100%;
-        }
-    
+     
       
          
         

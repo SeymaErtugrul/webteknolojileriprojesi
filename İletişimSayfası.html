@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>İLETİŞİM</title>
+    <link rel="stylesheet" type="text/css" href="İletişim.css">
+    <link href="navbar.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <header>
+        <a href="#" class="logo">İLETİŞİM</a>
+        <ul>
+           
+            <li><a href="Hakkında.html">Hakkında</a></li>
+            <li><a href="Şehrim.html">Şehrim</a></li>
+            <li><a href="Login.html">Log in</a></li>
+            <li><a href="Mirasımız.html">Mirasımız</a></li>
+            <li><a href="özgeçmiş.html">Özgeçmiş</a></li>
+
+    </header>
+    <section class="banner"> </section>
+    <section class="banner">  </section>
+    <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        var header=document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY>0);
+    })
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="iletişim-formu">
+			<div class="left"></div>
+			<div class="right">
+                <h2>iletişim Formu</h2>
+				<input required type="text" class="field" name="isim"placeholder="Ad Soyad">
+				<input required type="email" class="field"name="email" placeholder="Mail Adresi">
+                <input required  type="text" class="field"name="numara" placeholder="Telefon Numarası">
+				<textarea required placeholder="Message" class="field"></textarea>
+                <button class="btn">GÖNDER</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
